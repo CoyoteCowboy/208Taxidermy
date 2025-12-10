@@ -88,12 +88,14 @@
         function enlargeImg() {
             img.style.transform = "scale(2)";
             img.style.transition = "transform 0.25s ease";
+            img.style.transition = "object-fit: none;"
         }
       
         // Function to reset image size
         function resetImg() {
             img.style.transform = "scale(1)";
             img.style.transition = "transform 0.25s ease";
+            img.style.transition = object-fit: cover;
         }
     </script>
                     </main>
