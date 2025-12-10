@@ -3,9 +3,10 @@ html, body {
     background-size: 1500px;
     background-color: #25360F;
     margin: 0;
-
-
-
+images {
+    border: black 5px solid;
+    
+        }
 a {
   color: #f7ebcf;
 }
