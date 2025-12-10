@@ -15,10 +15,10 @@
           </nav>
           <main>  
                 <h1>GALLERY</h1>
-          <p>testing</p>
+          <p>test</p>
       <p>
             <button onclick="resetImg()" style="height: 100%; width: 100%; opacity: 0">Reset</button>
-          <img src="https://files.catbox.moe/1wb2s5.jpg" alt="Image not found" style="width: 300px; height: 300px; object-fit: cover;" onclick="enlargeImg(1)" onclick="resetImg(2)" id="img1">
+          <img src="https://files.catbox.moe/1wb2s5.jpg" alt="Image not found" style="width: 300px; height: 300px; object-fit: cover;" onclick="enlargeImg()" id="img1">
     
           <img src="https://files.catbox.moe/uuwayw.jpg" alt="Image not found" style="width: 300px; height: 300px; object-fit: cover;">
           <img src="https://files.catbox.moe/sy6veb.jpg" alt="Image not found" style="width: 300px; height: 300px; object-fit: cover;">
@@ -85,14 +85,14 @@
           <script>
         img = document.getElementById("img1");
       
-        function enlargeImg(1) {
+        function enlargeImg() {
             img.style.transform = "scale(2)";
             img.style.transition = "transform 0.25s ease";
             img.style.transition = "object-fit: none";
         }
       
         // Function to reset image size
-        function resetImg(2) {
+        function resetImg() {
             img.style.transform = "scale(1)";
             img.style.transition = "transform 0.25s ease";
             img.style.transition = "object-fit: cover";
