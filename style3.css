@@ -11,8 +11,6 @@ img {
     object-fit: cover;
 }
 img:hover {
-    height: 100%;
-    width: 100%;
     object-fit: none;
 }
 .box {
