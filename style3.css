@@ -64,7 +64,7 @@ main {
 }
 
 table, th, td {
-  border: 2px solid #f7ebcf;
+  border: 2px solid black;
   padding: 10px;
   border-collapse: collapse;
 }
