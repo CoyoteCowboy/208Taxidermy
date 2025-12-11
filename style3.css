@@ -3,6 +3,12 @@ html, body {
     background-size: 1500px;
     background-color: #25360F;
     margin: 0;
+    
+img:hover {
+  transform: scale(2);
+  object-fit: contain;
+}
+
 .box {
   max-width: 1300px;
   margin: 10px auto;
