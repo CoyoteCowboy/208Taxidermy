@@ -5,10 +5,9 @@ html, body {
     margin: 0;
     
 img:hover {
-  transform: scale(1.5);
-  height: auto;
-  width: auto;
+  transform: scale(1.25);
   animation: zoomIn 0.5s
+  object-fit: contain;
 }
 
 .box {
