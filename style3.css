@@ -5,7 +5,7 @@ html, body {
     margin: 0;
     
 img:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   object-fit: scale-down;
   animation: zoomIn 0.5s
 }
