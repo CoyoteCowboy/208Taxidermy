@@ -6,7 +6,8 @@ html, body {
     
 img:hover {
   transform: scale(2);
-  object-fit: contain;
+  object-fit: scale-down;
+  animation: zoomIn 0.5s
 }
 
 .box {
