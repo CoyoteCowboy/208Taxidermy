@@ -45,7 +45,7 @@ nav {
   text-align: center;
   word-spacing: 100px;
   font-size: 50px;
-  text-color: #F2E5D5;
+  color: #F2E5D5;
 }
 
 main {
@@ -53,7 +53,7 @@ main {
   grid-column: 1/3;
   background-color: #F2E5D5;
   font-size: 20px;
-  text-color: #0D0D0D;
+  color: #0D0D0D;
 }
 
 table, th, td {
