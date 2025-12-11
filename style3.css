@@ -7,8 +7,8 @@ html, body {
 img:hover {
   height: 500px;
   width: 500px;
-  transform: scale(1.1);
   transition: transform 0.5s ease;
+  transform: scale(1.1);
   object-fit: contain;
 }
 
