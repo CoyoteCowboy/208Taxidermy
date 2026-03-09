@@ -10,14 +10,7 @@ main img{
  border: 5px solid black;
  object-fit: cover;
 }
-main img:hover {
-  height: 500px;
-  width: 500px;
-  transition: transform 0.5s ease;
-  transform: scale(1.1);
-  object-fit: contain;
-  border: none;
-}
+
 
 .box {
   max-width: 1300px;
