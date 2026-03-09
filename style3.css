@@ -13,7 +13,7 @@ main img{
 
 
 .box {
-  max-width: 1300px;
+  width: 1300px;
   margin: 10px auto;
   display: grid;
   grid-gap: 10px;
