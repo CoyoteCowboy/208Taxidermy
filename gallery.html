@@ -9,142 +9,136 @@
       <body> 
         <div class="box">
           <header>
-                <img src="https://file.garden/aayu7b0kShQ_xI0d/208taxidermylogo.png" alt="Image not found" style="height: 400px";>
+                <img src="https://file.garden/aayu7b0kShQ_xI0d/208taxidermylogo.png" alt="Image not found" style="height: 400px">
             </header>
           <nav>
               <b><a href="https://208taxidermy.com">ABOUT</a> <a href="https://208taxidermy.com/pricing">PRICING</a> <a href="https://208taxidermy.com/gallery">GALLERY</a> <a href="https://coyotelucille.neocities.org/208"></a></b>
           </nav>
           <main>  
-                <h1>GALLERY</h1
-          <p><b>Click on each image to view.</p></b>
+                <h1>GALLERY</h1>
+                <p>Click on image to view.</p>
+                <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> <b>Show all</b></button>
+  <button class="btn" onclick="filterSelection('birds')"> <b>Birds</b></button>
+  <button class="btn" onclick="filterSelection('deer')"> <b>Deer</b></button>
+  <button class="btn" onclick="filterSelection('bears')"> <b>Bears</b></button>
+  <button class="btn" onclick="filterSelection('cougars')"> <b>Cougars</b></button>
+  <button class="btn" onclick="filterSelection('bobcats')"> <b>Bobcats</b></button>
+  <button class="btn" onclick="filterSelection('smallmammals')"> <b>Small Mammals</b></button>
+  <button class="btn" onclick="filterSelection('sheep')"> <b>Sheep</b></button>
+  <button class="btn" onclick="filterSelection('canines')"> <b>Canines</b></button>
+  <button class="btn" onclick="filterSelection('goats')"> <b>Goats</b></button>
+  <button class="btn" onclick="filterSelection('elk')"> <b>Elk</b></button>
+  <button class="btn" onclick="filterSelection('moose')"> <b>Moose</b></button>
+  <button class="btn" onclick="filterSelection('bison')"> <b>Bison</b></button>
+  <button class="btn" onclick="filterSelection('other')"> <b>Other</b></button>
+</div>
+
+<div class="container">
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv smallmammals"><img src="https://file.garden/aayu7b0kShQ_xI0d/otter1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bobcats"><img src="https://file.garden/aayu7b0kShQ_xI0d/bobcat1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bobcats birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/bobcat2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv sheep"><img src="https://file.garden/aayu7b0kShQ_xI0d/bighorns1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"> <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/muledeer1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv goats"><img src="https://file.garden/aayu7b0kShQ_xI0d/goat1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv sheep"><img src="https://file.garden/aayu7b0kShQ_xI0d/bighorn2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar5.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar6.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/muledeer2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar7.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/owl1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bears cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/bearcougar1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar8.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv other"><img src="https://file.garden/aayu7b0kShQ_xI0d/hog1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar9.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bears"><img src="https://file.garden/aayu7b0kShQ_xI0d/bear1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv sheep"><img src="https://file.garden/aayu7b0kShQ_xI0d/bighorn3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv goats"><img src="https://file.garden/aayu7b0kShQ_xI0d/goat2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar10.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar11.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv canines"><img src="https://file.garden/aayu7b0kShQ_xI0d/fox1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv goats"><img src="https://file.garden/aayu7b0kShQ_xI0d/goat3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv goats"><img src="https://file.garden/aayu7b0kShQ_xI0d/goat4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/muledeer3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail5.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bears"><img src="https://file.garden/aayu7b0kShQ_xI0d/bear2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bears"><img src="https://file.garden/aayu7b0kShQ_xI0d/bear2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv elk"><img src="https://file.garden/aayu7b0kShQ_xI0d/elk1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail6.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/quail1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/turkey1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/turkey2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/turkey3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar12.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv other"><img src="https://file.garden/aayu7b0kShQ_xI0d/giraffe1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bison"><img src="https://file.garden/aayu7b0kShQ_xI0d/bison1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bears"><img src="https://file.garden/aayu7b0kShQ_xI0d/bear3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bears"><img src="https://file.garden/aayu7b0kShQ_xI0d/bear4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv canines"><img src="https://file.garden/aayu7b0kShQ_xI0d/fox2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv other deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/weredeer.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail7.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar13.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv cougars"><img src="https://file.garden/aayu7b0kShQ_xI0d/cougar14.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv bird"><img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/owl2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/birds1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv birds"><img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail8.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv deer"><img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail9.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  <div class="filterDiv smallmammals"><img src="https://file.garden/aayu7b0kShQ_xI0d/porcupine1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable"></div>
+  
+  
+</div>
+          <p><b>Click on each image to view.</b></p>
       <p>
-    
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-      
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/otter1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-       
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bobcat1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-        
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bobcat2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-      
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bighorns1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/muledeer1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/goat1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bighorn2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar5.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-        
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar6.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/muledeer2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar7.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/owl1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-       
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bearcougar1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar8.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/hog1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar9.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bear1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bighorn3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/goat2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-      
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar10.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-       
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar11.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/fox1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/goat3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/goat4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/muledeer3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail5.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bear2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-        
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/elk1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail6.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/quail1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/turkey1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/turkey2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/turkey3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-         
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar12.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-        
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/giraffe1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bison1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bear3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/bear4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/fox2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/weredeer.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail7.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar13.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/cougar14.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-        
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant3.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/owl2.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/birds1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-            
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/pheasant4.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-            
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail8.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-            
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/whitetail9.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-           
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/porcupine1.jpg" alt="Image not found" style="width: 400px; height: 400px; object-fit: cover; border: 5px solid black;" class="zoomable">
-          
-           
+           <script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+</script>
 
         
                     </main>
           <footer>
-          <img src="https://file.garden/aayu7b0kShQ_xI0d/208taxidermylogoblack.png" alt="Image not found" style="height: 200px";><br><b>208 Taxidermy<br>(208)743-4885<br>208taxidermy@gmail.com</b>
+          <img src="https://file.garden/aayu7b0kShQ_xI0d/208taxidermylogoblack.png" alt="Image not found" style="height: 200px"><br><b>208 Taxidermy<br>(208)743-4885<br>208taxidermy@gmail.com</b>
           </footer>
           </div>
       </body>
